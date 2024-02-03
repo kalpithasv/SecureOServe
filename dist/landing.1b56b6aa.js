@@ -622,15 +622,17 @@ let showAddress = (accounts)=>{
     statusDesc.classList.add("account");
 };
 btn.addEventListener("click", async ()=>{
+    console.log("Button clicked");
     btn.style.backgroundColor = "#cccccc";
     loader.style.display = "block";
     try {
         const accounts = await ethereum.request({
             method: "eth_requestAccounts"
         });
+        console.log("Accounts:", accounts);
         showAddress(accounts);
     } catch (error) {
-        console.error(error);
+        console.error("Error:", error);
     }
 });
 

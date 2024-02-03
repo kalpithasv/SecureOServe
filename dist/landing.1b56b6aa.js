@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"8m8Rl":[function(require,module,exports) {
+})({"Ct5CM":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -636,6 +636,6 @@ btn.addEventListener("click", async ()=>{
     }
 });
 
-},{}]},["8m8Rl","lmzBG"], "lmzBG", "parcelRequirec58b")
+},{}]},["Ct5CM","lmzBG"], "lmzBG", "parcelRequirec58b")
 
 //# sourceMappingURL=landing.1b56b6aa.js.map

@@ -1,4 +1,3 @@
-// script.js
 document.addEventListener("DOMContentLoaded", function() {
   // Set the initial credit score value
   const initialScore = 500;

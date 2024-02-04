@@ -1,4 +1,7 @@
-body {
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
   font-family: 'Arial', sans-serif;
   text-align: center;
   margin: 20px;
@@ -15,7 +18,7 @@ body {
   position: relative;
   width: 300px;
   height: 150px;
-  background: conic-gradient(from 180deg at 50% 0%, #3498db 0%, #ecf0f1 180deg); /* Gradient for a more complex design */
+  background: conic-gradient(from 180deg at 50% 0%, #3498db 0%, #ecf0f1 180deg);
   border-radius: 150px 150px 0 0;
 }
 
@@ -23,13 +26,13 @@ body {
   position: absolute;
   width: 4px;
   height: 80px;
-  background-color: #e74c3c; /* Pointer color */
+  background-color: #e74c3c;
   left: 50%;
   bottom: 50%;
   transform-origin: 50% 100%;
   transform: translateX(-50%) rotate(0deg);
   transition: transform 0.5s ease-in-out;
-  z-index: 2; /* Ensure the pointer is above the values */
+  z-index: 2;
 }
 
 .values {
@@ -41,7 +44,7 @@ body {
   align-items: center;
   padding: 0 20px;
   box-sizing: border-box;
-  transform: rotate(-90deg); /* Start values from the top */
+  transform: rotate(-90deg);
 }
 
 .values::before {
@@ -49,7 +52,7 @@ body {
   display: block;
   width: 4px;
   height: 20px;
-  background-color: #333; /* Indicator color */
+  background-color: #333;
   position: absolute;
   top: -20px;
   left: 50%;

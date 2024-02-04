@@ -4,32 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Webpage Title</title>
+    <title>Credit Score Speedometer</title>
 </head>
 <body>
 
-    <header>
-        <h1>Your Website Name</h1>
-    </header>
-
-    <main>
-        <section>
-            <h2>Welcome to Our Website!</h2>
-            <p>This is the main section of our webpage.</p>
-        </section>
-
-        <div class="speedometer">
-            <div class="semicircle">
-                <div class="inner-circle"></div>
-                <div class="pointer"></div>
-            </div>
-            <div class="credit-score-label">Credit Score: 500</div>
+    <div class="speedometer">
+        <div class="semicircle">
+            <div class="inner-circle"></div>
+            <div class="pointer" id="pointer"></div>
         </div>
-    </main>
+        <div class="credit-score-label">Credit Score: <span id="creditScore"></span></div>
+    </div>
 
-    <footer>
-        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
-    </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
+
